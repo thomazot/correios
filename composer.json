@@ -1,0 +1,26 @@
+{
+    "name": "thomazot/correios",
+    "description": "Pacote que busca o cep dos correios Brasil",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomaz Takashi Oda Toyama",
+            "email": "thomazot@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "5.5.7"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "cagartner/phpquery": "0.9.8",
+        "thomazot/core": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thomazot\\Core\\": "src/Core/",
+            "Thomazot\\Correios\\": "src/Correios/"
+        }
+    },
+    "minimum-stability": "dev"
+}
